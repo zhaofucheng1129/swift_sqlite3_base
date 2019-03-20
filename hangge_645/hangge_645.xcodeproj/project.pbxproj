@@ -1,0 +1,349 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		585BBCA31EAF4410000A78E1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585BBCA21EAF4410000A78E1 /* AppDelegate.swift */; };
+		585BBCA51EAF4410000A78E1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585BBCA41EAF4410000A78E1 /* ViewController.swift */; };
+		585BBCA81EAF4410000A78E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 585BBCA61EAF4410000A78E1 /* Main.storyboard */; };
+		585BBCAA1EAF4410000A78E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 585BBCA91EAF4410000A78E1 /* Assets.xcassets */; };
+		585BBCAD1EAF4410000A78E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 585BBCAB1EAF4410000A78E1 /* LaunchScreen.storyboard */; };
+		585BBCB71EAF442C000A78E1 /* SQLiteDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585BBCB51EAF442C000A78E1 /* SQLiteDB.swift */; };
+		585BBCB81EAF442C000A78E1 /* SQLTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585BBCB61EAF442C000A78E1 /* SQLTable.swift */; };
+		585BBCBF1EAF445F000A78E1 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 585BBCBE1EAF445F000A78E1 /* libsqlite3.0.tbd */; };
+		585BBCC11EAF4575000A78E1 /* data.db in Resources */ = {isa = PBXBuildFile; fileRef = 585BBCC01EAF4575000A78E1 /* data.db */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		585BBC9F1EAF4410000A78E1 /* hangge_645.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hangge_645.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		585BBCA21EAF4410000A78E1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		585BBCA41EAF4410000A78E1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		585BBCA71EAF4410000A78E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		585BBCA91EAF4410000A78E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		585BBCAC1EAF4410000A78E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		585BBCAE1EAF4410000A78E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		585BBCB51EAF442C000A78E1 /* SQLiteDB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SQLiteDB.swift; sourceTree = "<group>"; };
+		585BBCB61EAF442C000A78E1 /* SQLTable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SQLTable.swift; sourceTree = "<group>"; };
+		585BBCB91EAF4441000A78E1 /* hangge_645-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "hangge_645-Bridging-Header.h"; sourceTree = "<group>"; };
+		585BBCBE1EAF445F000A78E1 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		585BBCC01EAF4575000A78E1 /* data.db */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = data.db; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		585BBC9C1EAF4410000A78E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				585BBCBF1EAF445F000A78E1 /* libsqlite3.0.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		585BBC961EAF4410000A78E1 = {
+			isa = PBXGroup;
+			children = (
+				585BBCC01EAF4575000A78E1 /* data.db */,
+				585BBCB91EAF4441000A78E1 /* hangge_645-Bridging-Header.h */,
+				585BBCB41EAF442C000A78E1 /* SQLiteDB */,
+				585BBCA11EAF4410000A78E1 /* hangge_645 */,
+				585BBCA01EAF4410000A78E1 /* Products */,
+				585BBCBD1EAF445F000A78E1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		585BBCA01EAF4410000A78E1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				585BBC9F1EAF4410000A78E1 /* hangge_645.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		585BBCA11EAF4410000A78E1 /* hangge_645 */ = {
+			isa = PBXGroup;
+			children = (
+				585BBCA21EAF4410000A78E1 /* AppDelegate.swift */,
+				585BBCA41EAF4410000A78E1 /* ViewController.swift */,
+				585BBCA61EAF4410000A78E1 /* Main.storyboard */,
+				585BBCA91EAF4410000A78E1 /* Assets.xcassets */,
+				585BBCAB1EAF4410000A78E1 /* LaunchScreen.storyboard */,
+				585BBCAE1EAF4410000A78E1 /* Info.plist */,
+			);
+			path = hangge_645;
+			sourceTree = "<group>";
+		};
+		585BBCB41EAF442C000A78E1 /* SQLiteDB */ = {
+			isa = PBXGroup;
+			children = (
+				585BBCB51EAF442C000A78E1 /* SQLiteDB.swift */,
+				585BBCB61EAF442C000A78E1 /* SQLTable.swift */,
+			);
+			name = SQLiteDB;
+			path = hangge_645/SQLiteDB;
+			sourceTree = "<group>";
+		};
+		585BBCBD1EAF445F000A78E1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				585BBCBE1EAF445F000A78E1 /* libsqlite3.0.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		585BBC9E1EAF4410000A78E1 /* hangge_645 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 585BBCB11EAF4410000A78E1 /* Build configuration list for PBXNativeTarget "hangge_645" */;
+			buildPhases = (
+				585BBC9B1EAF4410000A78E1 /* Sources */,
+				585BBC9C1EAF4410000A78E1 /* Frameworks */,
+				585BBC9D1EAF4410000A78E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = hangge_645;
+			productName = hangge_645;
+			productReference = 585BBC9F1EAF4410000A78E1 /* hangge_645.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		585BBC971EAF4410000A78E1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = hangge;
+				TargetAttributes = {
+					585BBC9E1EAF4410000A78E1 = {
+						CreatedOnToolsVersion = 8.3.1;
+						LastSwiftMigration = 0830;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 585BBC9A1EAF4410000A78E1 /* Build configuration list for PBXProject "hangge_645" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 585BBC961EAF4410000A78E1;
+			productRefGroup = 585BBCA01EAF4410000A78E1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				585BBC9E1EAF4410000A78E1 /* hangge_645 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		585BBC9D1EAF4410000A78E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				585BBCAD1EAF4410000A78E1 /* LaunchScreen.storyboard in Resources */,
+				585BBCC11EAF4575000A78E1 /* data.db in Resources */,
+				585BBCAA1EAF4410000A78E1 /* Assets.xcassets in Resources */,
+				585BBCA81EAF4410000A78E1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		585BBC9B1EAF4410000A78E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				585BBCB71EAF442C000A78E1 /* SQLiteDB.swift in Sources */,
+				585BBCB81EAF442C000A78E1 /* SQLTable.swift in Sources */,
+				585BBCA51EAF4410000A78E1 /* ViewController.swift in Sources */,
+				585BBCA31EAF4410000A78E1 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		585BBCA61EAF4410000A78E1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				585BBCA71EAF4410000A78E1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		585BBCAB1EAF4410000A78E1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				585BBCAC1EAF4410000A78E1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		585BBCAF1EAF4410000A78E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		585BBCB01EAF4410000A78E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		585BBCB21EAF4410000A78E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = hangge_645/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hangge.hangge-645";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "hangge_645-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		585BBCB31EAF4410000A78E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = hangge_645/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hangge.hangge-645";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "hangge_645-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		585BBC9A1EAF4410000A78E1 /* Build configuration list for PBXProject "hangge_645" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				585BBCAF1EAF4410000A78E1 /* Debug */,
+				585BBCB01EAF4410000A78E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		585BBCB11EAF4410000A78E1 /* Build configuration list for PBXNativeTarget "hangge_645" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				585BBCB21EAF4410000A78E1 /* Debug */,
+				585BBCB31EAF4410000A78E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 585BBC971EAF4410000A78E1 /* Project object */;
+}
